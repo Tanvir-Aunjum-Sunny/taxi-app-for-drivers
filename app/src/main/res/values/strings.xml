@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TaxiApp Vendors</string>
+
+    <string name="taxiapp_copyrights">TaxiApp Car Rentals. All rights reserved.</string>
+
+    <string name="alert_ok">OK</string>
+    <string name="alert_cancel">Cancel</string>
+    <string name="start_trip">>> Start Trip</string>
+    <string name="reached_pickup">>> Reached Pickup</string>
+    <string name="customer_boarded">>> Customer Boarded</string>
+    <string name="end_trip">>> End Trip</string>
+    <string name="go_to_billing">Generating Bill </string>
+    <string name="no_bookings_assigned">No Bookings are there for today.For Help Contact TaxiApp or Vendor</string>
+
+    <dimen name="max_width">700dp</dimen>
+    <dimen name="view_width">350dp</dimen>
+    <dimen name="view_margin">-350dp</dimen>
+
+</resources>

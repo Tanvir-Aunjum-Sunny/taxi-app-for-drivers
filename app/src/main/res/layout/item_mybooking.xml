@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_mybookings_list_bg"
+    android:gravity="center_vertical"
+    android:paddingLeft="15dp"
+    android:paddingRight="10dp">
+
+    <LinearLayout
+        android:id="@+id/list_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/mybookings_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="29"
+            android:textSize="34sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/mybookings_month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="Oct"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/mybookings_year"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2015"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:background="@color/nav_bar_divider" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/mybookings_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:layout_toLeftOf="@+id/mybookings_bookingId"
+        android:layout_toRightOf="@+id/list_layout"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="Vishakapattinam"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/mybookings_destinations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mybookings_city"
+        android:layout_marginLeft="7dp"
+        android:layout_toRightOf="@+id/list_layout"
+        android:text="Destination 1 -> Destination 2 -> Destination 3 -> Destination 4 -> Destination 5"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/mybookings_bookingId"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:ellipsize="start"
+        android:gravity="center"
+        android:maxLength="15"
+        android:singleLine="true"
+        android:text="Booking ID"
+        android:textSize="10dp"
+        android:textStyle="bold|italic" />
+
+
+    <TextView
+        android:id="@+id/mybookings_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mybookings_destinations"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/list_layout"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="Jayanagar 4th Block"
+        android:textSize="10dp" />
+</RelativeLayout>

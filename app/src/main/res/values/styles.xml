@@ -1,0 +1,98 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/app_primary_color</item>
+
+        <!-- colorPrimaryDark is used for the code bar -->
+        <item name="colorPrimaryDark">@color/app_primary_color_dark</item>
+
+        <!-- colorAccent is used as the default value for colorControlActivated, which is used to tint widgets -->
+        <item name="colorAccent">@color/app_accent_color</item>
+
+        <!-- You can also set colorControlNormal, colorControlActivated
+             colorControlHighlight, and colorSwitchThumbNormal. -->
+        <item name="android:textColorHint">@color/app_sec_text_color</item>
+        <item name="android:textColorPrimary">@color/app_primary_text_color</item>
+        <item name="android:windowBackground">@color/app_window_bg_color</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+
+    </style>
+
+
+    <style name="ToolbarTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/app_primary_color</item>
+
+        <!-- colorPrimaryDark is used for the code bar -->
+        <item name="colorPrimaryDark">@color/app_primary_color_dark</item>
+
+        <!-- colorAccent is used as the default value for colorControlActivated, which is used to tint widgets -->
+        <item name="colorAccent">@color/app_accent_color</item>
+
+    </style>
+
+
+    <style name="TitleTheme">
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@drawable/selector_bottom_border</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="TitleThemeNoBorder">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="NotificationLabel">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:background">@drawable/selector_circle_border</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/selector_color</item>
+    </style>
+
+    <style name="TripControlButton">
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="LabelText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">0.7</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:layout_marginTop">7dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="LabelColon">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">0.1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:layout_marginTop">7dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="LabelValue">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1.2</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:layout_marginTop">7dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    style="@style/LabelText"
+                    android:text="Booking ID" />
+
+                <TextView
+                    style="@style/LabelColon"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/booking_id"
+                    style="@style/LabelValue"
+                    android:text="Booking ID" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    style="@style/LabelText"
+                    android:text="Trip Type" />
+
+                <TextView
+                    style="@style/LabelColon"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/booking_tripType"
+                    style="@style/LabelValue"
+                    android:text="Trip Type" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    style="@style/LabelText"
+                    android:text="Date &amp; Time" />
+
+                <TextView
+                    style="@style/LabelColon"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/booking_startTime"
+                    style="@style/LabelValue"
+                    android:text="Date &amp; Time" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    style="@style/LabelText"
+                    android:text="Car Type" />
+
+                <TextView
+                    style="@style/LabelColon"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/booking_carType"
+                    style="@style/LabelValue"
+                    android:text="Car Type" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    style="@style/LabelText"
+                    android:text="Cash/Credit" />
+
+                <TextView
+                    style="@style/LabelColon"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/booking_paymentType"
+                    style="@style/LabelValue"
+                    android:text="Cash/Credit" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    style="@style/LabelText"
+                    android:text="# of Days" />
+
+                <TextView
+                    style="@style/LabelColon"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/booking_numDays"
+                    style="@style/LabelValue"
+                    android:text="# of Days" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    style="@style/LabelText"
+                    android:text="Route" />
+
+                <TextView
+                    style="@style/LabelColon"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/booking_route"
+                    style="@style/LabelValue"
+                    android:text="Route" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    style="@style/LabelText"
+                    android:text="Customer Name" />
+
+                <TextView
+                    style="@style/LabelColon"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/booking_customerName"
+                    style="@style/LabelValue"
+                    android:text="Customer Name" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    style="@style/LabelText"
+                    android:text="Customer Mobile" />
+
+                <TextView
+                    style="@style/LabelColon"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/booking_customerMobile"
+                    style="@style/LabelValue"
+                    android:text="Customer Mobile" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    style="@style/LabelText"
+                    android:text="Pickup Address" />
+
+                <TextView
+                    style="@style/LabelColon"
+                    android:text=" : " />
+
+                <TextView
+                    android:id="@+id/booking_pickupAddress"
+                    style="@style/LabelValue"
+                    android:singleLine="false"
+                    android:text="Pickup Address" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

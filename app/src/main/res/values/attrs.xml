@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MultiStateSwipeButton">
+       <attr name="buttonStates" format="reference"></attr>
+       <attr name="buttonStateColors" format="reference"></attr>
+        <attr name="buttonStateTextColors" format="reference"></attr>
+        <attr name="buttonCommonStyle" format="reference"></attr>
+    </declare-styleable>
+
+</resources>

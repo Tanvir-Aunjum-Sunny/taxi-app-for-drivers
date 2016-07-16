@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="app_primary_color">#0097a7</color>
+    <color name="app_primary_color_dark">#0097a7</color>
+    <color name="app_primary_text_color">@color/black</color>
+    <color name="app_sec_text_color">#d5d5d5</color>
+    <color name="app_window_bg_color">#FFFFFF</color>
+
+    <color name="window_bg_color">#2D99D5</color>
+    <color name="navigationBarColor">#191919</color>
+    <color name="app_accent_color">#FF1F92B1</color>
+
+    <!--1F92B1  <color name="button_color">#19778C</color> -->
+    <color name="button_color">#F33B3B</color>
+    <color name="button_color_dark">#DB2928</color>
+    <color name="selector_color">#FA6D01</color>
+    <color name="text_color">#4CA8C1</color>
+    <color name="button_text_color">#fff</color>
+
+    <color name="white">#fff</color>
+    <color name="black">#000000</color>
+    <color name="off_black">#212121</color>
+    <color name="off_white">#99ffffff</color>
+
+    <color name="bg_nav_bar_lite">#454545</color>
+    <color name="bg_nav_bar_dark">#2c2c2c</color>
+    <color name="nav_bar_divider">#808080</color>
+    <color name="bookacab_textcolor_large">#0594C2</color>
+    <color name="bookacab_textcolor_small">#505050</color>
+    <color name="offer_rupees_color">#ff9d35</color>
+
+
+    <color name="blue_900">#2a36b1</color>
+
+    <color name="starttrip_titles">#124f60</color>
+    <color name="starttrip_border_title">#21caf9</color>
+    <color name="starttrip_labels">#145161</color>
+
+    <color name="trip_control_start">@color/app_primary_color</color>
+    <color name="trip_control_reached_pickup">#cc7a00</color>
+    <color name="trip_control_customer_boarded">#72c900</color>
+    <color name="trip_control_end">#ea0000</color>
+    <color name="trip_control_billing">#ffffff</color>
+    <color name="trip_distance_value_update">#e67d0f</color>
+    <color name="trip_distance_value_unit">#cc6a04</color>
+
+    <color name="gray">#CACFD2</color>
+</resources>

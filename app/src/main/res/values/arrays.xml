@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="trip_button_states">
+        <item>Start Trip</item>
+        <item>Reached Pickup</item>
+        <item>Customer Boarded</item>
+        <item>End Trip</item>
+    </string-array>
+
+    <integer-array name="trip_button_state_colors">
+        <item>@color/trip_control_start</item>
+        <item>@color/trip_control_reached_pickup</item>
+        <item>@color/trip_control_customer_boarded</item>
+        <item>@color/trip_control_end</item>
+    </integer-array>
+    <integer-array name="trip_button_state_text_colors">
+        <item>@color/white</item>
+        <item>@color/white</item>
+        <item>@color/white</item>
+        <item>@color/white</item>
+    </integer-array>
+</resources>

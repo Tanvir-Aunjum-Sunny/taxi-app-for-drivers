@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!--
+    <item
+        android:left="4dp"
+        android:top="8dp">
+        <shape>
+            <corners android:radius="3dp" />
+            <solid android:color="#D6D6D6" />
+        </shape>
+    </item>
+    -->
+    <item>
+
+        <!--
+  android:bottom="2dp"
+        android:left="2dp"
+        -->
+
+        <shape>
+            <gradient
+                android:startColor="@color/button_color"
+                android:endColor="@color/button_color_dark"
+                android:angle="270" />
+        </shape>
+    </item>
+
+</layer-list>

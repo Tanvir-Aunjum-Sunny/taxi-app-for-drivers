@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_call_customer"
+        android:title="Customer " />
+    <item
+        android:id="@+id/menu_call_taxiapp"
+        android:title="TaxiApp" />
+    <item
+        android:id="@+id/menu_call_vendor"
+        android:title="Vendor" />
+</menu>
